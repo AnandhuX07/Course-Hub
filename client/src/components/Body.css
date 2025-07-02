@@ -1,0 +1,184 @@
+.body-container{
+    width: 100%;
+    padding: 40px 80px;
+    margin-bottom: 50px;
+}
+.body-container-content{
+    display: flex;
+    margin-bottom: 50px;
+
+}
+.body-img {
+    position: relative;
+    padding: 0 40px;
+}
+
+
+.body-img1 {
+  position: relative;
+  z-index: 2;
+}
+
+@keyframes slideRightToLeft {
+  0% {
+    right: 0%;
+    opacity: 1;
+    top: 3%;
+}
+
+50% {
+    opacity: 1;
+}
+100% {
+    right: 0%;
+    opacity: 1;
+    top: -3%;
+}
+
+}
+
+.body-img2 {
+    position: absolute; 
+    left: 0%;
+    z-index: 1;
+     animation: slideRightToLeft 4s ease-in-out infinite alternate;
+}
+
+.body-img1 {
+  position: relative;
+  z-index: 1; /* behind */
+}
+
+.body-img3 {
+  position: relative;
+  z-index: 2; /* in front */
+}
+.body-img3{
+    position: absolute;
+    top: 60%;
+    left: 46%;
+    width: 100%;
+    max-width: 240px;
+}
+.body-img4{
+    position: absolute;
+    right: 59%;
+    top: 36%;
+}
+.body-content-a{
+    border: none;
+    background-color: #cb292733;
+    border-radius: 20px;
+    width: 100%;
+    max-width: 80px;
+    text-align: center;
+    padding: 4px;
+}
+.body-content-a a{
+    text-decoration: none;
+    color:#cb2927;
+}
+.body-content{
+    margin: 0 0 0 70px;
+    display:flex ;
+    flex-direction: column;
+    gap: 7%;
+    color: black;
+}
+
+.body-content h1{
+    font-size: 48px;
+    line-height: 54px;
+    font-weight: 700;
+    font-family: "Outfit", sans-serif;
+    margin-bottom: 25px;
+}
+.body-content-p{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 491px;
+    border-left: 3px solid red;
+    padding: 10px;
+    margin-bottom: 20px;
+
+}
+.body-content-p p{
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #5F6C76;
+    font-family: "Outfit", sans-serif;
+    line-height: 30px;
+}
+.ul-container{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.ul-container li{
+    align-items: center;
+    display: flex;
+    gap: 4%;
+    font-size: 16px;
+}
+.checkcontainer{
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+    color: red;
+}
+.checkcontainer:hover{
+    background-color: red;
+    width: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+    color: white;
+}
+.check-icon {
+  fill: #fa5252;  
+  transition: fill 0.3s; 
+}
+
+.check-icon:hover {
+  fill: white;            
+}
+
+.body-logo-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-1 {
+  display: flex;
+  align-items: center;      /* Vertically align items */
+  justify-content: flex-start; /* Keep items aligned left */
+  gap: 12px;                /* Space between image and text */
+}
+
+.logo-1 img {
+  width: 40px;              /* Adjust size as needed */
+  height: auto;
+}
+
+.logo-1-content h1,
+.logo-1-content h2 {
+  margin: 0;
+  color: black;
+}
+
+.logo-1-content h1 {
+  font-size: 25px;
+}
+
+.logo-1-content h2 {
+  font-size: 15px;
+  color: black
+}

@@ -1,0 +1,67 @@
+/* Admin_user.css */
+
+.user-page {
+  padding: 2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6;
+  min-height: 100vh;
+}
+
+.user-heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #1f2937;
+  margin-bottom: 1.5rem;
+}
+
+.user-table {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  background-color: #ffffff;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.user-table th,
+.user-table td {
+  padding: 14px;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.user-table th {
+  background-color: #6366f1; /* Indigo */
+  color: white;
+  font-weight: 600;
+}
+
+.user-table tr:nth-child(even) {
+  background-color: #f9fafb;
+}
+
+.user-table tr:hover {
+  background-color: #e0e7ff;
+}
+
+.delete-button {
+  background-color: #ef4444;
+  color: white;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+  background-color: #dc2626;
+}
+.user-table td {
+  padding: 14px;
+  border: 1px solid #e5e7eb;
+  text-align: center;
+  color: #1f2937; /* <-- Dark Gray/Black Text */
+  font-weight: 500;
+}

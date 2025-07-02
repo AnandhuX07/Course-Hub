@@ -1,0 +1,293 @@
+.blog-container {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    padding: 40px 100px;
+    margin-bottom: 40px; 
+}
+
+.blog-flex-container {
+    display: flex;
+    gap: 20px; 
+    align-items: stretch;  
+}
+
+.blog-flex-1 {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+.blog-flex-2 {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    box-sizing: border-box;
+    border-radius: 15px;
+    gap: 20px;
+}
+
+
+.blog-main-header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 35px;
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.blog-header {
+    width: 100%;
+    max-width: 160px;
+    text-align: center;
+    border: none;
+    padding: 8px;
+    border-radius: 20px;
+    background: #cb292733;
+    color: #cb2927;
+}
+
+.blog-h1-content {
+    width: 100%;
+    max-width: 60%;
+    text-align: center;
+    font-size: 49px;
+    line-height: 55px;
+    margin-bottom: 0;
+    font-weight: 800;
+    font-family: "Outfit", sans-serif;
+    color: black;
+}
+
+.blog-flex-1-h2 h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 53px;
+    font-family: "Outfit", sans-serif;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+
+.blog-flex-1-h2 {
+    margin-bottom: 15px;
+}
+
+.blog-flex-1-h2 h2:hover {
+    color: #cb2927;
+}
+
+.blog-flex1-all-content {
+    padding: 20px;
+}
+
+.blog-flex-1-p p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #5F6C76;
+    line-height: 29px;
+}
+
+.blog-flex-1-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.blog-flex-1-logo .flex-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.flex-right li {
+    list-style: none;
+}
+
+.flex-right ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.blog-img1 {
+    position: relative;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.blog-img1 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.blog-img3 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.blog-img2 img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.blog-img1 img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.blog-img1 img:hover {
+  transform: scale(1.05);
+}
+.blog-img3 img {
+  transition: transform 0.3s ease-in-out;
+}
+.blog-img3 img:hover {
+  transform: scale(1.05);
+}
+.blog-img2 img {
+  transition: transform 0.3s ease-in-out;
+}
+.blog-img2 img:hover {
+  transform: scale(1.05);
+}
+.calender {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #cb2927;
+    color: #fff;
+    padding: 18px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    line-height: 1.2;
+}
+.calender span {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.flex-right svg {
+  transition: all 0.3s ease;
+  padding: 6px;
+  border-radius: 8px;
+  fill: #000000; 
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.flex-right svg path {
+  fill: #000000 !important; 
+  transition: fill 0.3s ease;
+}
+
+.flex-right svg:hover path {
+  fill: red !important; 
+}
+
+.flex-right svg {
+  background-color: transparent;
+  padding: 6px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.flex-right svg:hover {
+  background-color: #ffffff;
+}
+.blog-img2{
+    position: relative;
+}
+.blog-img3{
+    position: relative;
+}
+.calender-1 {
+   position: absolute;
+    top: 5px;
+    left: 8px;
+    background-color: #cb2927;
+    color: #fff;
+    padding: 18px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    line-height: 1.2;
+}
+.calender-1 span {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+}.calender-2 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #cb2927;
+    color: #fff;
+    padding: 18px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    line-height: 1.2;
+}
+.calender-2 span {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.blog-flex-2-1-h2{
+    padding: 20px 40px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.blog-flex-2-2-h2{
+    padding: 20px 40px;
+    cursor: pointer;
+    transition: ease-in-out 0.3s;
+}
+.blog-flex-2-1-h2:hover{
+    color: #cb2927;
+}
+.blog-flex-2-2-h2:hover{
+    color: #cb2927;
+}
+.calender-3 {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    background-color: #cb2927;
+    color: #fff;
+    padding: 18px 12px;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    line-height: 1.2;
+}
+.calender-3 span {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+}

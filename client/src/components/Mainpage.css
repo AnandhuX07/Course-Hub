@@ -1,0 +1,254 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f8ebec;
+  color: #fff;
+}
+
+.mainpage-container {
+  width: 100%;
+  background-color: #0b062b;
+  max-width: 90%;
+  padding: 60px 100px;
+  position: relative;
+  /* overflow: hidden; */
+  transform: translate(70px, 10px);
+  border-radius: 20px;
+}
+
+.mainpage-main-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.mainpage-body-content {
+  flex: 1;
+  max-width: 600px;
+}
+
+.mainpage-body-content h3 {
+  color: #f2545b;
+  font-size: 16px;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.mainpage-body-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.mainpage-body-content p {
+  color: #ccc;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* Buttons */
+.submit-container {
+  display: flex;
+  gap: 20px;
+}
+
+.submit-container button {
+  padding: 14px 26px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-container button:first-child {
+  background-color: #fff;
+  color: #0b062b;
+}
+
+.submit-container button.secondary-btn {
+  background: none;
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+.submit-container button:hover {
+  transform: scale(1.05);
+}
+
+/* Right section */
+.mainpage-img-section {
+  flex: 1;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Main image hover animation */
+.hover-effect-img {
+  max-width: 100%;
+  height: auto;
+  transition: transform 0.4s ease-in-out;
+  z-index: 2;
+  position: relative;
+}
+
+.hover-effect-img:hover {
+  transform: scale(1.05);
+}
+
+/* ========== Floating Bubbles ========== */
+.shape {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.6;
+  z-index: 0;
+  animation: floatUpDown 6s ease-in-out infinite alternate;
+}
+
+.shape1 {
+  width: 100px;
+  height: 100px;
+  background: #6244ff;
+  top: 20%;
+  left: 60%;
+  animation-duration: 8s;
+}
+
+.shape2 {
+  width: 60px;
+  height: 60px;
+  background: #fcd200;
+  top: 40%;
+  left: 70%;
+  animation-duration: 10s;
+}
+
+.shape3 {
+  width: 120px;
+  height: 80px;
+  background: #e91e63;
+  top: 10%;
+  right: 5%;
+  animation-duration: 12s;
+  border-radius: 50% 50% 0 50%;
+}
+
+.shape4 {
+  width: 50px;
+  height: 50px;
+  background: #00c3ff;
+  bottom: 10%;
+  left: 10%;
+  animation-duration: 9s;
+}
+
+@keyframes floatUpDown {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  50% {
+    transform: translateY(-20px) scale(1.05);
+  }
+  100% {
+    transform: translateY(0) scale(1);
+  }
+}
+
+/* ========== Logos ========== */
+.logo-main-img-container {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.logo-main-img {
+  position: absolute;
+}
+
+.top-left {
+  top: 7%;
+  left: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.bottom-center {
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.logo-main-img img {
+  max-width: 80px;
+  height: auto;
+}
+
+/* Animation: rotate logo2 */
+.rotating-logo img {
+  animation: rotate 4s linear infinite;
+}
+
+/* Animation: move logo1 left to right */
+.moving-logo {
+  animation: moveLeftRight 4s ease-in-out infinite;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes moveLeftRight {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 50px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+
+/* company list  */
+.list-container{
+  width: 100%;
+  padding: 9px;
+}
+.list-main-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow:0 2px 8px rgba(0, 0, 0, 0.2);  
+}

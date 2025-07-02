@@ -1,0 +1,34 @@
+# ======== PYTHON / DJANGO ========
+*.pyc
+__pycache__/
+*.sqlite3
+
+# Virtual environment folders
+env/
+venv/
+
+# Django static and media files
+staticfiles/
+media/
+
+# Secret environment variables
+.env
+
+# ======== NODE / REACT ========
+# Dependency directories
+node_modules/
+build/
+dist/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# dotenv environment file (frontend)
+client/.env
+
+# ======== VS CODE / SYSTEM ========
+.vscode/
+.DS_Store
+*.log

@@ -1,0 +1,16 @@
+
+.header-container{
+    width: 100%;
+    background-color: #181717;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    align-items: center;
+    gap: 98px;
+    color: white;
+}
+.header-logo-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
