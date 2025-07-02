@@ -28,12 +28,3 @@ Course Hub is a full-featured learning platform built with **React (frontend)** 
 | Database     | SQLite (Development)         |
 | Styling      | External CSS                |
 
----
-
-## 💻 How to Run Locally
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/AnandhuX07/Course-Hub.git
-cd Course-Hub
